@@ -256,7 +256,7 @@ h2 { margin-bottom: 0; font-size: clamp(40px, 4vw, 55px); line-height: 1.1; }
 .contact-links { border-top: 1px solid var(--line); }
 .contact-link { min-height: 68px; display: flex; align-items: center; gap: 14px; border-bottom: 1px solid var(--line); }
 .contact-link-icon { width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: var(--accent); font-size: 15px; }
-.instagram-icon { font-size: 20px; }
+.social-brand-icon { width: 19px; height: 19px; display: block; }
 .contact-link small { display: block; margin-bottom: 4px; color: #999087; font-size: 7px; font-weight: 700; letter-spacing: .15em; }
 .contact-link strong { font-size: 10px; font-weight: 600; }
 .contact-arrow { margin-left: auto; color: var(--accent); font-size: 12px; }
