@@ -204,7 +204,17 @@ h2 { margin-bottom: 0; font-size: clamp(40px, 4vw, 55px); line-height: 1.1; }
   border-bottom: 3px solid var(--accent);
   border-radius: 14px;
   background: transparent;
-  box-shadow: 0 24px 60px rgba(53, 38, 34, .15);
+  transition: transform .25s ease, box-shadow .25s ease;
+  box-shadow:
+    0 24px 60px rgba(53, 38, 34, .15),
+    0 0 22px 5px rgba(165, 109, 80, .38);
+}
+.booking-form:hover,
+.booking-form:focus-within {
+  transform: translateY(-4px);
+  box-shadow:
+    0 30px 64px rgba(53, 38, 34, .18),
+    0 0 26px 8px rgba(165, 109, 80, .46);
 }
 .booking-form::before {
   content: "";
