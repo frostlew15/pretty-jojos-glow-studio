@@ -26,7 +26,8 @@ websiteUrl.search = "";
 const websiteAddress = websiteUrl.href;
 const websiteQrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&format=svg&data=${encodeURIComponent(websiteAddress)}`;
 bookingQr.src = websiteQrUrl;
-topQr.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&format=svg&data=${encodeURIComponent(websiteAddress)}`;
+const whatsappQrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&format=svg&data=${encodeURIComponent(buildWhatsAppUrl(helloMessage))}`;
+topQr.src = whatsappQrUrl;
 document.querySelector("#current-year").textContent = new Date().getFullYear();
 
 const today = new Date();
