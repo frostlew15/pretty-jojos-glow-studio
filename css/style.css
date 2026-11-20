@@ -200,6 +200,8 @@ h2 { margin-bottom: 0; font-size: clamp(40px, 4vw, 55px); line-height: 1.1; }
   padding: 34px 36px 30px;
   border: 1px solid rgba(194, 148, 90, .36);
   border-top: 3px solid var(--gold);
+  border-right: 2px solid var(--gold);
+  border-bottom: 2px solid var(--gold);
   border-radius: 14px;
   background: transparent;
   box-shadow: 0 24px 60px rgba(53, 38, 34, .15);
